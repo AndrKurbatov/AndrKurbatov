@@ -83,10 +83,13 @@ header {
     color: #000;
 }
 
-.menu:nth-last-child(1) {
+.menu li:nth-last-child(1) {
     margin-right: 0;
 }
-
+.button {
+    width: 77px;
+    text-align: center;
+}
 .button:active,
 .button:hover {
     background-color: darkgray;
