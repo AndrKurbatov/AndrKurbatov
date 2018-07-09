@@ -1,0 +1,148 @@
+body {
+    font-family: 'Crimson Text', serif;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    border-bottom: 2px solid gray;
+}
+
+.logo-text {
+    line-height: 72px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    background-color: #e1e1e1;
+    flex: 0 0 auto;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.wrapper-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contacts {
+    font-weight: bold;
+}
+
+.sub-logo {
+    margin-right: 25px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    padding: 8px;
+}
+
+.menu li {
+    margin-right: 15px;
+    display: inline-block;
+}
+.menu li:nth-last-child(1) {
+    margin-right: 0;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    width: 108px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button:active,
+.button:hover {
+    background-color: darkgray;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+.content-title {
+    text-align: center;
+}
+
+.text-section {
+    padding: 10px 0;
+}
+.photo {
+    background-image: url("../img/photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 256px;
+    height: 336px;
+    float: left;
+    margin: 0 30px 35px 0;
+}
+
+.data_information {
+    padding: 5px;
+    display: flex;
+}
+
+.item {
+    flex: 1 1;
+    margin:5px;
+    padding:30px 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+}
+
+.rightpic {
+    float: right;
+    margin: 35px 0 35px 35px;
+}
+.leftpic {
+    float: left;
+    margin: 0 30px 35px 0;
+}
+
+
+.item h1 {
+    font-size: 18px;
+}
