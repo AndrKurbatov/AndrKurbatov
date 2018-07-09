@@ -125,14 +125,18 @@ header {
 }
 
 .data_information {
-    padding: 5px;
+
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
+
 
 .item {
     flex: 1 1;
-    margin: 0 25px;
-    padding:30px 40px;
+    margin: 0 40px 0 0;
+    padding: 30px 40px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 
 }
@@ -142,6 +146,7 @@ header {
     margin: 35px 0 35px 35px;
 }
 .leftpic {
+
     float: left;
     margin: 0 30px 35px 0;
 }
